@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(112, 57, 214);
+    font-family: monospace;
+    color: white;
+
+}
+header {
+    padding: 10px;
+    color: white;
+}
+.resultado{
+    text-align: center;
+    font: size 25px;
+    color: white;
+}
+.opciones{
+    text-align: center;
+    margin: 50px 0;
+}
+.opcion{
+    width: 80px;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+.opcion:hover{
+    background-color: rgb(51, 51, 218) ;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.ganador{
+    color: greenyellow;
+    font-size: 25px;
+}
+.perdedor{
+    color: red;
+    font-size: 25px;
+}
+.empate{
+    color: rgb(241, 168, 31);
+    font-size: 25px;
+}
